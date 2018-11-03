@@ -9,16 +9,60 @@
   </head>
   <body>
     <nav>
-      <a href="#vektoren">Vektoren</a>
+      <a href="#geo">Geometrie</a>
       <a href="#ableitung">Ableiten</a>
       <a href="#integrieren">Integrieren</a>
     </nav>
-    <section id="vektoren">
-      <h3>Vektoren</h3>
-      <h5>Allgemeine Vektorformel</h5>
-      <p>
-        \(g:\overrightarrow{x} = \begin{bmatrix}p_1\\p_2\\p_3\end{bmatrix} + t \cdot \begin{bmatrix}u_1\\u_2\\u_3\end{bmatrix}\), wobei \(\overrightarrow{p}\) der Ortsvektor und \(\overrightarrow{u}\) der Richtungsvektor ist.
-      </p>
+    <section id="geo">
+
+      <div class="topic">
+        <h3>Vektoren</h3>
+        <h5>Allgemeine Vektorformel</h5>
+        <p>
+          \(g:\overrightarrow{x} = \overrightarrow{p} + t \cdot \overrightarrow{u}\), wobei \(\overrightarrow{p}\) der Ortsvektor und \(\overrightarrow{u}\) der Richtungsvektor ist.
+        </p>
+
+        <h5>Das Skalarprodukt</h5>
+        <p>
+          Das Skalarprodukt zweier Vektoren \(\overrightarrow{a} \cdot \overrightarrow{b} = \begin{bmatrix}a_1\\a_2\\a_3\end{bmatrix} \cdot \begin{bmatrix}b_1\\b_2\\b_3\end{bmatrix}\) \(= a_1 b_1 + a_2 b_2 + a_3 b_3\) ist genau dann null, wenn die beiden Vektoren orthogonal zueinander sind.
+        </p>
+      </div>
+
+      <div class="topic">
+        <h3>Ebenen</h3>
+        <h5>Parametergleichung</h5>
+        <p>
+          \(E: \overrightarrow{x} = \overrightarrow{p} + s \cdot \overrightarrow{u} + t \cdot \overrightarrow{v}\) beschreiben, wobei \(\overrightarrow{p}\) der Stützvektor und \(\overrightarrow{u}\) und \(\overrightarrow{v}\) die Spannvektoren sind.
+        </p>
+        <h5>Normalengleichung</h5>
+        <p>
+          \((\overrightarrow{x} - \overrightarrow{p}) \cdot \overrightarrow{n} = 0\), wobei \(\overrightarrow{p}\) der Stützvektor und \(\overrightarrow{n}\) der zur Ebene orthogonale Normalenvektor ist.
+        </p>
+        <h5>Koordinatengleichung</h5>
+        <p>
+          \(a x_1 + b x_2 + cx_3 = d\), wobei der Vektor \(\begin{bmatrix}a\\b\\c\end{bmatrix}\) ein Normalenvektor der Ebene ist.
+        </p>
+
+        <h5>Von der Koordinatengleichung zur Normalengleichung</h5>
+        <p>
+          1. Stützvektor bestimmen, indem man zwei der drei Koordinaten in \(a x_1 + b x_2 + cx_3 = d\) 0 setzt und die fehlende Koordinate ausrechnet.
+        </p>
+        <p>
+          2. Normalenvektor aus Koeffizienten bestimmen.
+        </p>
+        <p>
+          3. Normalen- und Stützvektor in Normalengleichung einsetzen.
+        </p>
+
+        <h5>Von der Normalengleichung zur Koordinatengleichung</h5>
+        <p>
+          1. Normalengleichung umformen zu \(\overrightarrow{x} \cdot \overrightarrow{n} = \overrightarrow{p} \cdot \overrightarrow{n}\).
+        </p>
+        <p>
+          2. Skalarprodukte berechnen.
+        </p>
+      </div>
+
     </section>
 
     <section id="ableitung">

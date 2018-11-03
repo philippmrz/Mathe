@@ -22,7 +22,7 @@ section {
 }
 
 section:first-of-type {
-  padding-top: 14.5vh;
+  padding-top: 10.5vh;
 }
 
 nav {
@@ -39,22 +39,27 @@ nav {
 h3, h5 {
   letter-spacing: .5px;
   font-size: 1rem;
-  margin-bottom: .5rem;
 }
 
 h3 {
   font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 
 h5 {
   color: #333;
   font-weight: 400;
+  margin-bottom: .5rem;
 }
 
 a {
   text-decoration: none;
   color: black;
   border-bottom: 0.13rem solid black;
+}
+
+p {
+  line-height: 2rem;
 }
 
 a:hover {
@@ -66,12 +71,20 @@ nav a {
   border-color: #001;
 }
 
+.topic {
+  margin: 2rem 0;
+}
+
+.topic h5:nth-child(n + 1) {
+  margin-top: 1.5rem;
+}
+
 .scrollUp {
   transform: translateY(-12.5vh);
 }
 
 @media (max-width: 750px) {
   html {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
