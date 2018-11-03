@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ span {
 }
 
 html {
-  font: 18px 'Roboto', sans, Helvetica;
+  font: 400 18px 'Roboto', sans, Helvetica;
   scroll-behavior: smooth;
 }
 
@@ -36,13 +36,19 @@ nav {
   width: 100%;
 }
 
-h3 {
+h3, h5 {
+  letter-spacing: .5px;
+  font-size: 1rem;
   margin-bottom: .5rem;
+}
+
+h3 {
+  font-weight: 500;
 }
 
 h5 {
   color: #333;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 a {
@@ -53,6 +59,11 @@ a {
 
 a:hover {
   border: none;
+}
+
+nav a {
+  color: #001;
+  border-color: #001;
 }
 
 .scrollUp {
