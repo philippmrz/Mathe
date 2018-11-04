@@ -11,6 +11,7 @@
   <body>
     <nav>
       <a href="#geo">Geometrie</a>
+      <a href="#lgs">LGS</a>
       <a href="#ableitung">Ableiten</a>
       <a href="#integrieren">Integrieren</a>
     </nav>
@@ -67,6 +68,41 @@
         </p>
       </div>
 
+    </section>
+
+    <section id="lgs">
+      <div class="topic">
+        <h3>Lineare Gleichungsysteme</h3>
+        <h5>Das Gauß-Verfahren</h5>
+        <p>Ein lineares Gleichungsystem mit mehr als zwei Variablen kann durch das Gauß-Verfahren gelöst werden.</p>
+        <p>Dabei kann man eine oder mehrere Gleichungen</p>
+        <ul>
+          <li>miteinander vertauschen</li>
+          <li>durch die Differenz oder Summe zweier Gleichungen ersetzen oder</li>
+          <li>mit einer Zahl multiplizieren, die nicht null ist.</li>
+        </ul>
+        <p>Mithilfe dieser Methoden kann man folgende Schritte durchführen, um das LGS zu lösen:</p>
+        <ol>
+          <li>Eine Variable aus dem LGS eliminieren.</li>
+          <li>Diese Variable in die restlichen Gleichungen einsetzen, um die anderen Variablen herauszufinden.</li>
+        </ol>
+      </div>
+      <div class="topic">
+        <h5>Lösungsmengen linearer Gleichungsysteme</h5>
+        <p>Gleichungsysteme haben entweder</p>
+        <ol>
+          <li>eine Lösung, wenn sich die Gleichungen eindeutig nach den Variablen auflösen lassen,</li>
+          <li>keine Lösung, wenn Widersprüche auftreten,</li>
+          <li>oder unendlich viele Lösungen, wenn eine Gleichung für jeden Wert einer Variable richtig ist.</li>
+        </ol>
+        <p>Hat ein LGS unendlich viele Lösungen, setzt man die Variable, für die jeder Wert richtig ist, mit einer Konstanten (z.B.\(t\)) gleich. Dann kann man die richtigen Werte der anderen Variablen in Abhängigkeit von \(t\) angeben.</p>
+        <h5>Beispiel</h5>
+        <p>\(x_1 + x_2 + x_3 = 1,5\)</p>
+        <p>\(2x_2 + x_3 = 3\)</p>
+        <p>\(0x_3 = 0\)</p>
+        <p>Wählt man für \(x_3 = 1\), ist wegen II \(x_2 = 1\) und wegen I ist \(x_1 = - 0,5\).</p>
+        <p>Allgemein, also für \(x_3 = t\) gilt also \(x_2 = 1,5 - 0,5t\) und \(x_1 = - 0.5t\)</p>
+      </div>
     </section>
 
     <section id="ableitung">

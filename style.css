@@ -60,6 +60,11 @@ h5 {
   padding-left: .5rem;
 }
 
+li {
+  list-style-position: inside;
+  padding: .5rem 0;
+}
+
 a {
   text-decoration: none;
   color: black;
