@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 
 * {
   box-sizing: border-box;
@@ -17,12 +17,12 @@ html {
 
 section {
   min-height: 100vh;
-  padding:  2vw 2vw 0 2vw;
+  padding:  8vw 2vw 0 8vw;
 
 }
 
 section:first-of-type {
-  padding-top: 10.5vh;
+  padding-top: 20.5vh;
 }
 
 nav {
@@ -72,7 +72,7 @@ nav a {
 }
 
 .topic {
-  margin: 2rem 0;
+  margin-bottom: 3rem;
 }
 
 .topic h5:nth-child(n + 1) {
@@ -86,5 +86,13 @@ nav a {
 @media (max-width: 750px) {
   html {
     font-size: 14px;
+  }
+
+  section {
+    padding:  2vw 2vw 0 2vw;
+  }
+
+  section:first-of-type {
+    padding-top: 14.5vh;
   }
 }
