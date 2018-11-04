@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mathe Startseite</title>
   </head>
@@ -44,7 +44,7 @@
         </p>
         <p>Bei der Parameter- und der Koordinatengleichung benötigt man den sogenannten Normalenvektor, der senkrecht (orthogonal) zu den Spannvektoren liegt, sodass das Skalarprodukt aus \(\overrightarrow{p}\) und einem der Spannvektoren null ist.</p>
       </div>
-      
+
       <div class="topic">
         <h5>Von der Koordinatengleichung zur Normalengleichung</h5>
         <p>
@@ -69,9 +69,42 @@
     </section>
 
     <section id="ableitung">
-      <h3>Ableiten</h3>
-      <p>
-      </p>
+      <div class="topic">
+        <h3>Ableiten</h3>
+        <h5>Produktregel</h5>
+        <p>
+          \(u(x) \cdot v(x)\) ist abgeleitet \(u'(x) \cdot v(x) + u(x) + v'(x)\).
+        </p>
+        <h5>Kettenregel</h5>
+        <p>
+          \(u(v(x))\) ist abgeleitet \(u'(v(x)) \cdot v'(x)\).
+        </p>
+        <h5>Wurzeln ableiten</h5>
+        <p>
+          \(\sqrt{x} = x^\frac{1}{2}\) ist abgeleitet \(\frac{1}{2} \cdot x^{-\frac{1}{2}} = \frac{1}{2} \cdot \frac{1}{\sqrt{x}} = \frac{1}{2 \sqrt{x}}\).
+        </p>
+        <h5>Brüche ableiten</h5>
+        <p>
+          \(\frac{1}{x} = x^{-1}\) ist abgeleitet \(-x^{-2} = -\frac{1}{x^2}\).
+        </p>
+        <h5>e-Funktion ableiten</h5>
+        <p>
+          \(e^x\) ist abgeleitet \(e^x\).
+        </p>
+        <p>
+          \(e^{kx}\) ist nach der Kettenregel abgeleitet \(k \cdot e^{kx}\).
+        </p>
+        <p>
+          \((ax - b) \cdot e^x\) ist nach der Produktregel abgeleitet \(a \cdot e^x + (ax - b) \cdot e^x\) \(= e^x \cdot (a + (ax - b))\).
+        </p>
+        <h5>Trigonometrische Funktonen ableiten</h5>
+        <p>
+          \(sin(x)\) abgeleitet ist \(cos(x)\).
+        </p>
+        <p>
+          \(cos(x)\) abgeleitet ist \(-sin(x)\).
+        </p>
+      </div>
     </section>
 
     <section id="integrieren">

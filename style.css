@@ -17,12 +17,17 @@ html {
 
 section {
   min-height: 100vh;
-  padding:  8vw 2vw 0 8vw;
-
+  padding: 1rem 8rem;
+  margin: 2rem 0;
 }
 
 section:first-of-type {
   padding-top: 14.5vh;
+  margin-top: 0;
+}
+
+section .topic:last-child {
+  margin-bottom: 0;
 }
 
 nav {
@@ -79,7 +84,7 @@ nav a {
   margin-top: 1.5rem;
 }
 
-.scrollUp {
+.scroll {
   transform: translateY(-12.5vh);
 }
 
@@ -89,10 +94,18 @@ nav a {
   }
 
   section {
-    padding:  2vw 2vw 0 2vw;
+    padding:  0 1rem;
   }
 
   section:first-of-type {
-    padding-top: 14.5vh;
+    padding-top: 2.5vh;
+  }
+
+  nav {
+    bottom: 0;
+  }
+
+  .scroll {
+    transform: translateY(12.5vh);
   }
 }

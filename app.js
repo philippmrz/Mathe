@@ -5,9 +5,9 @@ window.onscroll = function () {
   var b = navbar.offsetHeight;
   currentScrollTop = a;
   if (c < currentScrollTop && a > 2*b) {
-    navbar.classList.add("scrollUp");
+    navbar.classList.add("scroll");
   } else if (c > currentScrollTop && a > b) {
-    navbar.classList.remove("scrollUp");
+    navbar.classList.remove("scroll");
   }
   c = currentScrollTop;
 };
