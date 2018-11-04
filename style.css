@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-span {
-  z-index: -1;
-}
-
 html {
   font: 400 18px 'Roboto', sans, Helvetica;
   scroll-behavior: smooth;
@@ -17,8 +13,7 @@ html {
 
 section {
   min-height: 100vh;
-  padding: 1rem 8rem;
-  margin: 2rem 0;
+  padding: 1.5rem 8rem;
 }
 
 section:first-of-type {
@@ -30,6 +25,10 @@ section .topic:last-child {
   margin-bottom: 0;
 }
 
+section:nth-child(odd) {
+  background-color: #f3f3ff;
+}
+
 nav {
   align-items: center;
   background-color: #cae6f1;
@@ -39,6 +38,7 @@ nav {
   position: fixed;
   transition: all 500ms;
   width: 100%;
+  z-index: 1;
 }
 
 h3, h5 {
@@ -94,7 +94,7 @@ nav a {
   }
 
   section {
-    padding:  0 1rem;
+    padding: 1rem;
   }
 
   section:first-of-type {
