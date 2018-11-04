@@ -34,7 +34,8 @@ nav {
   background-color: #cae6f1;
   display: flex;
   height: 12.5vh;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0 8rem;
   position: fixed;
   transition: all 500ms;
   width: 100%;
@@ -103,9 +104,11 @@ nav a {
 
   nav {
     bottom: 0;
+    height: 8vh;
+    padding: 0 8vw;
   }
 
   .scroll {
-    transform: translateY(12.5vh);
+    transform: translateY(8vh);
   }
 }
